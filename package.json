@@ -2,6 +2,7 @@
 	"author": "Legend",
 	"description": "A web app for practice",
 	"name": "fcc-learn-npm-package-json",
+	"version": "1.2.0",
 	"license": "MIT",
 	"keywords": ["Elite coder", "freecodecamp", "Learn to code"],
 	"dependencies": {
