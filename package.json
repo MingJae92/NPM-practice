@@ -4,12 +4,16 @@
 	"name": "fcc-learn-npm-package-json",
 	"version": "1.2.0",
 	"license": "MIT",
-	"keywords": ["Elite coder", "freecodecamp", "Learn to code"],
+	"keywords": [
+		"Elite coder",
+		"freecodecamp",
+		"Learn to code"
+	],
 	"dependencies": {
 		"express": "^4.14.0",
-		"moment" : "2.10.2" 
+		"moment": "2.10.2"
 	},
-	"main": "server.js", 
+	"main": "server.js",
 	"scripts": {
 		"start": "node server.js "
 	},
