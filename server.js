@@ -4,7 +4,8 @@
  * ***************************************************/
 
 'use strict';
-
+var myApp = require('./myApp');
+var bGround = require('fcc-express-bground');
 var fs = require('fs');
 var express = require('express');
 var app = express();
@@ -53,7 +54,9 @@ app.use(function(err, req, res, next) {
   }  
 })
 
-app.listen(process.env.PORT || 3000, function () {
-  console.log('Node.js listening ...');
+var port = process.env.PORT || 3000;
+
+bGround.listen(process.env.PORT || 3000, function () {
+  bGround.log('Node.js listening on port + port + ...');
 });
 
