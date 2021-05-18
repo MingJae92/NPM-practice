@@ -10,7 +10,7 @@ var bGround = require('fcc-express-bground');
 var express = require('express');
 var app = express();
 
-if (!process.env.DISABLE_X ORIGIN) { 
+if (!process.env.DISABLE_XORIGIN) {
   app.use(function(req, res, next) {
     var allowedOrigins = ['https://narrow-plane.gomix.me', 'https://www.freecodecamp.com'];
     var origin = req.headers.origin || '*';
@@ -22,6 +22,7 @@ if (!process.env.DISABLE_X ORIGIN) {
     next();
   });
 }
+
 
 // app.use('/public', express.static(process.cwd() + '/public'));
 
