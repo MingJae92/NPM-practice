@@ -10,8 +10,7 @@
 		"Learn to code"
 	],
 	"dependencies": {
-		"express": "^4.14.0",
-		"fcc-express-bground": "https://github.com/freeCodeCamp/fcc-express-bground-pkg.git"
+		"express": "^4.14.0"
 	},
 	"main": "server.js",
 	"scripts": {
