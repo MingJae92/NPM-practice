@@ -10,6 +10,7 @@
 		"Learn to code"
 	],
 	"dependencies": {
+		"dotenv": "^9.0.2",
 		"express": "^4.14.0",
 		"fcc-express-bground": "https://github.com/freeCodeCamp/fcc-express-bground-pkg.git"
 	},
