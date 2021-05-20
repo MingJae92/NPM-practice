@@ -2,9 +2,16 @@ var express = require('express');
 var app = express();
 var bGround = require('fcc-express-bground');
 require('dotenv').config();
+var bodyParser = require('body-parser');
 
 app.use(function(req, res, next){
     console.log(req.method + " " + req.path + " - " + req.ip);
+    next();
+});
+
+app.use(function(req, res, next){
+    bodyParser.urlencoded({extended:false})
+    
     next();
 });
 
