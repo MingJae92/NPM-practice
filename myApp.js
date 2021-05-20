@@ -9,11 +9,9 @@ app.use(function(req, res, next){
     next();
 });
 
-app.use(function(req, res, next){
-    bodyParser.urlencoded({extended:false})
-    
-    next();
-});
+app.use(bodyParser.urlencoded({extended:false}));
+
+app.use(bodyParser.json());
 
 bGround.log("Hello World");
 console.log("Hello World");
